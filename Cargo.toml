@@ -3,7 +3,6 @@ name = "rusty-puppet"
 version = "0.1.0"
 authors = ["Espen Henriksen <dev@henriksen.is>"]
 edition = "2018"
-build = "build.rs"
 
 [dependencies]
 rand = "0.6.1"
