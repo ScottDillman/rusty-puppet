@@ -142,5 +142,5 @@ fn download(dest_path: &Path) {
 fn main() {
     let out_dir = env::var("OUT_DIR").unwrap();
     let dest_path = Path::new(&out_dir);
-    download(&dest_path);
+    // download(&dest_path);
 }
